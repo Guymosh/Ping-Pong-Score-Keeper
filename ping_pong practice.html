@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ping Pong Score Keeper</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+</head>
+<body>
+	<div class="block"></div>
+<div class="columns" >
+	<div class="card column is-half is-offset-one-quarter" >
+			<div class="image is-128x128 ">
+				<img src="C:\Users\Guy\Documents\Web Developer Course\ping_pong pic.jpg">
+			</div>
+		  <header class="card-header">
+		    <p class="card-header-title">
+		      Ping Pong Score Keeper
+		    </p>
+		    
+		  </header>
+		  <div class="card-content is-family-monospace		">
+		    <div class="content">
+		    	<div class="is-size-1">
+		    		<span id="p1Score" >0</span> to <span id="p2Score">0</span>
+		    	</div>
+		    	
+		    	<div>	
+		    		Use the buttons below to keep score 
+		    	</div>
+		    	Playing To:
+				<div class="select is-focused">
+				
+				<select id="playTo" >
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>			
+					<option>6</option>
+					<option>7</option>		
+				</select>
+			    </div>
+		    </div>
+		  </div>
+
+		  <footer class="card-footer">
+		    <button href="#" class="card-footer-item button is-link" id="p1Add">+1 Player One</button>
+		    <button href="#" class="card-footer-item button is-link" id="p2Add">+1 Player Two</button>
+		    <button href="#" class="card-footer-item button is-danger" id="Reset">Reset</button>
+		  </footer>
+	</div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
